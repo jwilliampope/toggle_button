@@ -1,0 +1,28 @@
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.toggleBtn {
+    background: #808080;
+    width: 80px;
+    height: 40px;
+    border-radius: 30px;
+    padding: 5px;
+    cursor: pointer;
+    transition: all 100ms ease-in-out;
+}
+
+.toggleBtn > .disc {
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+}
+
+.toggleBtn.active{
+    background: #00ff22;
+}
